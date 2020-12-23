@@ -26,7 +26,7 @@ function App() {
                         {/* render={({ match }) => (<ThankYouPage id={match.params.id} */}
                     </Switch>
                 </div>
-                <Footer />
+
             </Router>
         </div>
     );

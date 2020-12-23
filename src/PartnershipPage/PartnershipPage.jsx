@@ -5,6 +5,7 @@ import save_money from './assets/save_money.jpg'
 import './PartnershipPage.css'
 import PartnershipForm from "./components/PartnershipForm/PartnershipForm";
 import {APPLY_FORM, SUCCESS_FORM} from "./components/constants";
+import Footer from "../Footer/Footer";
 
 function PartnershipPage() {
 
@@ -46,6 +47,7 @@ function PartnershipPage() {
                 </div>
             </div>
             <PartnershipForm type={formType} hidden={formHidden} onSubmit={handleSubmitApplyForm} onClose={closeForm} />
+            <Footer />
         </div>
     )
 }

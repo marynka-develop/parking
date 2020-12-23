@@ -359,3 +359,6 @@
 .phone img {
     vertical-align: middle;
 }
+.scroll{
+    height: 20vh!important;
+}

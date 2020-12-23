@@ -9,7 +9,7 @@ function Footer() {
     return (
 
 
-        <div className="site-footer">
+        <div className="site-footer ">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
