@@ -1,0 +1,49 @@
+#partnership-page {
+    min-height: 100vh;
+    font-family: Roboto, serif;
+}
+
+#partnership-page {
+    background: linear-gradient(#F1FAEE, rgba(0, 0, 0, 0));
+}
+
+.page-title {
+    padding-top: calc(25% - 40px);
+    font-size: 2.5rem;
+    text-shadow: 0 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+}
+
+.block-container {
+    margin: 20% 0;
+}
+
+.block-text h2 {
+    font-size: 2rem;
+}
+
+.block-text p {
+    font-size: 1.5rem;
+}
+
+.block-image {
+    border-radius: 2.5rem;
+}
+
+.btn-submit {
+    font-size: 2rem;
+    color: #E63946;
+
+    margin-bottom: 10%;
+
+    border-radius: 1.5rem;
+    background-color: #F1FAEE;
+    border: 3px solid #457B9D;
+    padding: 1rem 2rem 1rem 2rem;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.btn-submit:hover {
+    background-color: #457B9D;
+    color: #F1FAEE;
+}

@@ -1,0 +1,361 @@
+/*.main{*/
+/*    overflow-y: hidden; */
+/*    overflow-x: hidden;*/
+/*}*/
+.top-block {
+
+    /* Full height */
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(29, 53, 87, 0.5), rgba(176, 176, 176, 0.6)), url("https://www.parkonic.com/rev-slider-files/assets/image_2.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+
+}
+
+.intro {
+    position: absolute;
+    left: 0;
+    top: 35vh;
+    right: 0;
+    height: calc(50% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+}
+
+.button {
+    background-color: transparent;
+    color: #41DE34;
+    border: solid 0.1em #41DE34;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.button:hover {
+    background-color: #41DE34;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.slogan {
+    color: #F1FAEE!important;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.pre-slogan {
+    padding: 0 15px;
+    font-size: 24px;
+    color: #41DE34!important;
+
+}
+
+.image{
+    border-radius: 20px 20px 0 0 ;
+}
+.img1 {
+    position: absolute;
+
+    left: calc(50% - 260px);
+    bottom: 0;
+    /*top: 82vh;*/
+    float: bottom;
+    position: absolute;
+    bottom: 0;
+}
+
+.img2 {
+    position: absolute;
+    left: calc(50% + 14px);
+    bottom: 0;
+    /*top: 73vh;*/
+    position: absolute;
+    bottom: 0;
+}
+
+.product-screens {
+    position: absolute;
+
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.product-features {
+    background-color: #EFF5F5;
+
+    min-height: 600px;
+
+}
+
+.product-features h2 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #41DE34;
+
+}
+
+.product-features-row, row {
+    height: 100%;
+}
+
+.achievements {
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.find-and-book {
+    min-height: 15vh;
+    background-color: #EFF5F5;
+    overflow: hidden;
+
+}
+
+.counter {
+    color: #EFF5F5;
+    margin-top: 1vh;
+
+}
+.counter p{
+    font-size: 20px;
+}
+#ct{
+    font-size: 20px;
+}
+
+.icon {
+    color: #41DE34;
+}
+
+.usage span {
+    color: #457B9D;
+    font-size: 48px;
+}
+
+.title p {
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.usage {
+    background-color: #EFF5F5;
+    padding-top: 120px;
+    padding-bottom: 95px;
+
+
+}
+
+.box {
+    background-color: #fff !important;
+    padding: 140px 45px 20px 45px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    transition: 0.5s;
+
+}
+
+.box h3 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-size: 1.3125rem;
+    padding-top: 6vh;
+    color: #ffbf3c;
+
+}
+
+.box p {
+    outline-width: 20px;
+
+}
+
+.box span {
+    position: absolute;
+    top: 50%;
+    right: -48px;
+    margin: -42px 0 0 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #ededed;
+    background: #fff url("https://www.parkonic.com/img/arrow-gray-1.svg") no-repeat center;
+    display: block;
+    z-index: 9;
+    transition: 0.5s;
+
+}
+
+.box:hover {
+    background: rgba(237, 236, 236, 0.2);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.usage-row {
+    width: 90%;
+
+
+}
+
+.box#icon1 {
+    background: url("https://www.parkonic.com/img/icon-home-1.svg") no-repeat;
+    background-position: right 50% top 30%;
+
+}
+
+.box#icon2 {
+    background: url("https://www.parkonic.com/img/icon-home-2.svg") no-repeat center;
+    background-position: right 50% top 30%;
+}
+
+.box#icon3 {
+    background: url("https://www.parkonic.com/img/icon-home-3.svg") no-repeat center;
+    background-position: right 50% top 30%;
+}
+
+.icons {
+    color: #41DE34;
+}
+
+.phone {
+    background: url("https://drive.google.com/file/d/1eGB7Vz0ws5KmHSUg_N0W9naHMTlRDrkH/view?usp=sharing");
+    height: 100%;
+}
+
+.counter-icons {
+    color: #A8DADC;
+    transition: 0.5s;
+}
+
+.achivments-col p {
+    color: #ffbf3c;
+}
+
+.achivments-col:hover {
+    cursor: pointer;
+}
+
+.achivments-col:hover .counter-icons {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.space-top {
+    margin-top: 30px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, .15);
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    border: 0 none;
+    transition: transform .3s cubic-bezier(.34, 2, .6, 1), box-shadow .2s ease;
+}
+
+.overview {
+    padding: 70px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+.card .card-icon {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 30px 0 10px;
+    color: #EFF5F5;
+
+
+}
+
+.card[data-color=green] {
+    background: #86d9ab;
+}
+
+.card[data-color=blue] {
+    background: #6ec7e0;
+}
+
+.card[data-color=purple] {
+    background: #cc90cc;
+}
+
+.card[data-color=brown] {
+    background: #457B9D;
+}
+
+.bottom-icons {
+    font-size: 40px;
+    width: 75px;
+
+    height: 75px;
+    line-height: 105px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 48px !important;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+}
+
+.card-title {
+    color: #fff !important;
+}
+
+.card-description {
+    color: hsla(0, 0%, 100%, .8);
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.phone img {
+    vertical-align: middle;
+}

@@ -1,0 +1,26 @@
+#partnership-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 10;
+}
+
+#partnership-form > div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 20rem;
+}
+
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
